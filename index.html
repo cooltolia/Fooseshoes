@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FooseShoes — online market</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="main-header">
+    <div class="main-header__inner">
+      <a class="main-header__logo">
+        <img src="img/logo.png" alt="Fooseshoes">
+      </a>
+      <div class="main-header__user-actions">
+        <div class="main-header__search">
+          <label for="search" class="main-header__search-label"></label>
+          <input type="search" id="search">
+        </div>
+        <a href="#" class="main-header__login">LOGIN or REGISTER</a>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="main-nav__inner">
+        <ul class="main-nav__menu-list">
+          <li class="main-nav__menu-item">
+            <a class="main-nav__menu-link main-nav__menu-link--active">Home</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a class="main-nav__menu-link" href="products.html">Products</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a class="main-nav__menu-link" href="#">About</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a class="main-nav__menu-link" href="#">Pages</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a class="main-nav__menu-link" href="#">Blog</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a class="main-nav__menu-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <div class="main-nav__product--actions">
+          <a class="main-nav__wishlist" href="#">
+            <span class="main-nav__wishlist-quantity">30</span>
+          </a>
+          <a class="main-nav__cart" href="#">
+            <span class="main-nav__cart-quantity">0</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="index-main">
+    <div class="carousel">
+      <input type="radio" name="carousel" id="slide1" checked>
+      <input type="radio" name="carousel" id="slide2">
+      <input type="radio" name="carousel" id="slide3">
+      <input type="radio" name="carousel" id="slide4">
+      <input type="radio" name="carousel" id="slide5">
+      <div class="carousel__slider">
+        <div class="carousel__slider-inner">
+          <div class="carousel__slide slide slide--1">
+            <img class="slide__image" src="img/carousel_img1.png" width="778" height="460" alt="Shoes photo">
+            <div class="slide__content">
+              <div class="slide__price">$145,99</div>
+              <span class="slide__heading">Pink Shoes 2013 Collection</span>
+              <p class="slide__desc">Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci. Donec dignissim dolor eget..</p>
+              <ul class="slide__actions-menu">
+                <li class="slide__actions-item slide__actions-item--view">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+                <li class="slide__actions-item slide__actions-item--wishlist">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+                <li class="slide__actions-item slide__actions-item--share">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+                <li class="slide__actions-item slide__actions-item--buy">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="carousel__slide slide slide--2">
+            <img class="slide__image" src="img/carousel_img1.png" width="778" height="460" alt="Shoes photo">
+            <div class="slide__content">
+              <div class="slide__price">$195,99</div>
+              <span class="slide__heading">Anna Field limited edition</span>
+              <p class="slide__desc">Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci. Donec dignissim dolor eget..</p>
+              <ul class="slide__actions-menu">
+                <li class="slide__actions-item slide__actions-item--view">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+                <li class="slide__actions-item slide__actions-item--wishlist">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+                <li class="slide__actions-item slide__actions-item--share">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+                <li class="slide__actions-item slide__actions-item--buy">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="carousel__slide slide slide--3">
+            <img class="slide__image" src="img/carousel_img1.png" width="778" height="460" alt="Shoes photo">
+            <div class="slide__content">
+              <div class="slide__price">Priceless</div>
+              <span class="slide__heading">Prada<br> Summer is coming</span>
+              <p class="slide__desc">Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci. Donec dignissim dolor eget..</p>
+              <ul class="slide__actions-menu">
+                <li class="slide__actions-item slide__actions-item--view">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+                <li class="slide__actions-item slide__actions-item--wishlist">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+                <li class="slide__actions-item slide__actions-item--share">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+                <li class="slide__actions-item slide__actions-item--buy">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="carousel__slide slide slide--4">
+            <img class="slide__image" src="img/carousel_img1.png" width="778" height="460" alt="Shoes photo">
+            <div class="slide__content">
+              <div class="slide__price">from $95,99</div>
+              <span class="slide__heading">Casadei All colors available</span>
+              <p class="slide__desc">Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci. Donec dignissim dolor eget..</p>
+              <ul class="slide__actions-menu">
+                <li class="slide__actions-item slide__actions-item--view">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+                <li class="slide__actions-item slide__actions-item--wishlist">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+                <li class="slide__actions-item slide__actions-item--share">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+                <li class="slide__actions-item slide__actions-item--buy">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="carousel__slide slide slide--5">
+            <img class="slide__image" src="img/carousel_img1.png" width="778" height="460" alt="Shoes photo">
+            <div class="slide__content">
+              <div class="slide__price">from $45,99</div>
+              <span class="slide__heading">Mellow Yellow Free delivery</span>
+              <p class="slide__desc">Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci. Donec dignissim dolor eget..</p>
+              <ul class="slide__actions-menu">
+                <li class="slide__actions-item slide__actions-item--view">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+                <li class="slide__actions-item slide__actions-item--wishlist">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+                <li class="slide__actions-item slide__actions-item--share">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+                <li class="slide__actions-item slide__actions-item--buy">
+                  <a class="slide__actions-link" href="#"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel__controls controls">
+        <div class="controls__pagination">
+          <label class="controls__pagination-label" for="slide1"></label>
+          <label class="controls__pagination-label" for="slide2"></label>
+          <label class="controls__pagination-label" for="slide3"></label>
+          <label class="controls__pagination-label" for="slide4"></label>
+          <label class="controls__pagination-label" for="slide5"></label>
+        </div>
+        <div class="controls__about">
+          <label class="controls__about-label" for="slide1">
+            <span class="controls__about-heading">Pink Shoes</span>
+            <span class="controls__about-subheading">Now at $145,99</span>
+          </label>
+          <label class="controls__about-label" for="slide2">
+            <span class="controls__about-heading">Anna Field</span>
+            <span class="controls__about-subheading">Limited Edition</span>
+          </label>
+          <label class="controls__about-label" for="slide3">
+            <span class="controls__about-heading">Prada</span>
+            <span class="controls__about-subheading">Summer is coming</span>
+          </label>
+          <label class="controls__about-label" for="slide4">
+            <span class="controls__about-heading">Casadei</span>
+            <span class="controls__about-subheading">All Colors avaiable</span>
+          </label>
+          <label class="controls__about-label" for="slide5">
+            <span class="controls__about-heading">Mellow Yellow</span>
+            <span class="controls__about-subheading">Free delivery</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="specials">
+      <div class="specials__inner">
+        <a class="specials__link" href="#">
+          <img src="img/on-sale.jpg" alt="">
+        </a>
+        <a class="specials__link" href="#">
+          <img src="img/special-off.jpg" alt="">
+        </a>
+        <a class="specials__link" href="#">
+          <img src="img/must-have.jpg" alt="">
+        </a>
+      </div>
+    </div>
+
+    <article class="catalog">
+      <section class="catalog__products">
+        <div class="catalog__title">
+          <h2 class="catalog__heading">New arrivals on FooseShoes</h2>
+        </div>
+         <div class="catalog__products-filter products-filter">
+          <a href="#" class="products-filter__show-all">Show All</a>
+        </div>
+        <div class="catalog__products-item product">
+          <div class="product__photo">
+            <img src="img/shoes1.png" alt="">
+          </div>
+          <div class="product__about">
+            <div class="product__price">$145,99</div>
+            <div class="product__title">Even&Odd</div>
+            <ul class="product__actions-menu">
+              <li class="product__actions-item product__actions-item--view">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--wishlist">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--share">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--buy">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="catalog__products-item product">
+          <div class="product__photo">
+            <img src="img/shoes2.png" alt="">
+          </div>
+          <div class="product__alert product__alert--onsale"></div>
+          <div class="product__about">
+            <div class="product__price">$145,99</div>
+            <div class="product__title">Even&Odd</div>
+            <ul class="product__actions-menu">
+              <li class="product__actions-item product__actions-item--view">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--wishlist">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--share">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--buy">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="catalog__products-item product">
+          <div class="product__photo">
+            <img src="img/shoes3.png" alt="">
+          </div>
+          <div class="product__about">
+            <div class="product__price">$145,99</div>
+            <div class="product__title">Buffalo Decollete</div>
+            <ul class="product__actions-menu">
+              <li class="product__actions-item product__actions-item--view">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--wishlist">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--share">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--buy">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="catalog__products">
+        <div class="catalog__title">
+          <h2 class="catalog__heading">New arrivals on FooseShoes</h2>
+        </div>
+        <div class="catalog__products-filter products-filter">
+          <a href="#" class="products-filter__show-all">Show All</a>
+        </div>
+        <div class="catalog__products-item product">
+          <div class="product__photo">
+            <img src="img/shoes4.png" alt="">
+          </div>
+          <div class="product__about">
+            <div class="product__price">$145,99</div>
+            <div class="product__title">Even&Odd</div>
+            <ul class="product__actions-menu">
+              <li class="product__actions-item product__actions-item--view">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--wishlist">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--share">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--buy">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="catalog__products-item product">
+          <div class="product__photo">
+            <img src="img/shoes5.png" alt="">
+          </div>
+          <div class="product__about">
+            <div class="product__price">$145,99</div>
+            <div class="product__title">Buffalo Decollete</div>
+            <ul class="product__actions-menu">
+              <li class="product__actions-item product__actions-item--view">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--wishlist">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--share">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--buy">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="catalog__products-item product">
+          <div class="product__photo">
+            <img src="img/shoes6.png" alt="">
+          </div>
+          <div class="product__alert product__alert--out"></div>
+          <div class="product__about">
+            <div class="product__price">$145,99</div>
+            <div class="product__title">Even&Odd</div>
+            <ul class="product__actions-menu">
+              <li class="product__actions-item product__actions-item--view">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--wishlist">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--share">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+              <li class="product__actions-item product__actions-item--buy">
+                <a class="product__actions-link" href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <aside class="catalog__additional">
+        <a class="catalog__additional-block" href="#">
+          <h3 class="catalog__additional-heading">Free Shipping</h3>
+          <p class="catalog__additional-text">Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem,
+          </p>
+        </a>
+        <a class="catalog__additional-block" href="#">
+          <h3 class="catalog__additional-heading">Testimonials</h3>
+          <p class="catalog__additional-text">vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit [...]
+            <span>- John Doe -</span>
+          </p>
+        </a>
+        <div class="catalog__additional-block blog">
+          <h3 class="catalog__additional-heading">Blog news</h3>
+          <a class="blog__news" href="#">
+            <div class="blog__data">
+              <span class="blog__data-month">apr</span>
+              <span class="blog__data-day">01</span>
+            </div>
+            <div class="blog__content">
+              <h3 class="blog__heading">Nice & clean. The best for you blog!
+            </h3>
+              <p class="blog__text">
+                Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit [...]
+              </p>
+            </div>
+          </a>
+          <a class="blog__news" href="#">
+            <div class="blog__data">
+              <span class="blog__data-month">apr</span>
+              <span class="blog__data-day">01</span>
+            </div>
+            <div class="blog__content">
+              <h3 class="blog__heading">What an Ecommerce theme
+            </h3>
+              <p class="blog__text">
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit [...]
+              </p>
+            </div>
+          </a>
+        </div>
+      </aside>
+    </article>
+    <div class="widgets">
+      <div class="widgets__inner">
+        <div class="widgets__item">
+          <div class="widgets__heading">text widget</div>
+          <p class="widgets__text">
+            Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+          </p>
+        </div>
+        <div class="widgets__item">
+          <div class="widgets__heading">twitter widget</div>
+          <p class="widgets__text">
+            <em>@ericafustero</em> Why thank you. Your work looks awesome by the way! <em>@treemelody</em>
+          </p>
+          <span class="widgets__text-data">19 days ago</span>
+          <p class="widgets__text">
+            <em>@roymarvelous</em> You can seek a refund through TF if it is not as advertised - but it is :)
+          </p>
+          <span class="widgets__text-data">21 days ago</span>
+        </div>
+        <div class="widgets__item">
+          <div class="widgets__heading">flickr widget</div>
+          <img class="widgets__photo" src="img/flickr.png" alt="Flickr photos">
+        </div>
+      </div>
+    </div>
+
+    <div class="feedback">
+      <div class="feedback__inner">
+        <div class="feedback__email">
+          <form class="feedback__email-form" action="#" method="post">
+            <input class="feedback__email-input" type="email" name="email" id="email" placeholder="Enter email for newsletter">
+            <button class="feedback__email-submit" type="submit"></button>
+          </form>
+        </div>
+        <div class="feedback__socials socials">
+          <a class="socials__item socials__item--fb" href="#"></a>
+          <a class="socials__item socials__item--twitter" href="#"></a>
+          <a class="socials__item socials__item--google" href="#"></a>
+          <a class="socials__item socials__item--linkedin" href="#"></a>
+          <a class="socials__item socials__item--flickr" href="#"></a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="main-footer">
+    <div class="main-footer__inner">
+      <div class="main-footer__copyright">
+        Copyright © Fooseshoes 2013.
+        <br> Designed by EnzoLiVolti.
+      </div>
+      <nav class="main-footer__nav">
+        <a class="main-footer__nav-link">Home</a>
+        <a href="#" class="main-footer__nav-link">Support</a>
+        <a href="#" class="main-footer__nav-link">Terms and Conditions</a>
+        <a href="#" class="main-footer__nav-link">Faqs</a>
+        <a href="#" class="main-footer__nav-link">Contact us</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main-header.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.carousel__slider {
+  height: 460px;
+  background-image: url(/img/main-bg.jpg);
+  background-size: 100% 460px;
+}
+
+.carousel__slider-inner {
+  @include container;
+  position: relative
+}
+
+.carousel__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 960px;
+  min-height: 460px;
+  opacity: 0;
+}
+
+.carousel input[name="carousel"] {
+  display: none;
+}
+
+.carousel__controls {
+  background-color: #2e2e2e;
+}
+

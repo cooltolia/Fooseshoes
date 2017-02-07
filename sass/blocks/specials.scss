@@ -1,0 +1,69 @@
+.specials {
+  width: 100%;
+
+  background-color: #242424;
+}
+
+.specials__inner {
+  @include container;
+  min-height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.specials__link {
+  position: relative;
+  width: 300px;
+  height: 180px;
+  margin-right: 20px;
+  opacity: 0.7;
+
+  text-decoration: none;
+
+  &:last-child {
+    margin-right: 0;
+
+    &::after {
+      content: 'must have'
+    }
+  }
+
+  &::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    top: calc(50% - 30px);
+    left: calc(50% - 90px);
+
+    background-color: rgba(#000, 0.7);
+
+    font-family: "Aller light", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+  }
+
+  &:first-child::after {
+    content: 'on sale'
+  }
+
+  &:nth-child(2)::after {
+    content: 'special offers';
+    width: 230px;
+    left: calc(50% - 115px);
+  }
+
+  &:hover {
+    opacity: 1;
+    transform: scale(1.1);
+
+    &::after {
+      opacity: 0;
+    }
+  }
+}

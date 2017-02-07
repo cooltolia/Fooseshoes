@@ -1,0 +1,48 @@
+.socials {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.socials__item {
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
+  margin-right: 8px;
+
+  background-color: #2e2e2e;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  &--fb {
+    background-image: url(/img/facebook-icon.svg);
+    background-size: 9px 20px;
+  }
+
+  &--twitter {
+    background-image: url(/img/twitter-icon.svg);
+    background-size: 19px 16px;
+  }
+
+  &--google {
+    background-image: url(/img/google-icon.svg);
+    background-size: 19px 17px;
+  }
+
+  &--linkedin {
+    background-image: url(/img/linkedin-icon.svg);
+    background-size: 18px 19px;
+  }
+
+  &--flickr {
+    background-image: url(/img/flickr-icon.svg);
+    background-size: 20px 8px;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    box-shadow: 0 0 1px 1px black;
+  }
+}

@@ -1,0 +1,130 @@
+.main-nav {
+  width: 100%;
+  background: #fff;
+
+  font-family: Aller, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+.main-nav__inner {
+  @include container;
+  min-height: 60px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.main-nav__menu-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.main-nav__menu-item {
+  align-items: stretch;
+  display: flex;
+  border-left: 1px solid #eee;
+
+  &:last-child {
+    border-right: 1px solid #eee;
+  }
+}
+
+.main-nav__menu-link {
+  display: flex;
+  align-items: center;
+  padding: 0 23px;
+
+  font: inherit;
+  font-size: 16px;
+  line-height: 156%;
+  color: #242424;
+
+  text-decoration: none;
+
+  &--active {
+    color: #57c5a0;
+  }
+}
+
+.main-nav__menu-link[href]:hover {
+    color: darken(#242424, 10%);
+    background-color: #eee;
+  }
+
+.main-nav__product--actions {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.main-nav__product--actions a {
+  position: relative;
+  height: 60px;
+  width: 90px;
+
+  border-left: 1px solid #ccc;
+}
+
+.main-nav__wishlist {
+  background-image: url("/img/wishlist-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 23px center;
+
+  &:hover {
+    background-color: #eee;
+  }
+}
+
+.main-nav__wishlist-quantity {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 23px;
+  top: calc(50% - 10px);
+  border-radius: 4px;
+
+  font-family: Aller;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px; //только при таком значении центруется цифра
+  background-color: #adadad;
+  color: #fff;
+  text-align: center;
+}
+
+.main-nav__cart {
+  background-image: url("/img/cart-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 23px center;
+
+  &:hover {
+    background-color: #eee;
+  }
+}
+
+.main-nav__cart-quantity {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 23px;
+  top: calc(50% - 10px);
+  border-radius: 4px;
+
+  font-family: Aller;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px; //только при таком значении центруется цифра
+  background-color: #57c5a0;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+
+
+
+
