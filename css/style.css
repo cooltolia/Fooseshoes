@@ -406,25 +406,25 @@ template {
   font-weight: normal;
   font-family: "Aller";
   font-style: normal;
-  src: url("/fonts/aller_Rg.woff") format("woff"), url("/fonts/aller_Rg.woff2") format("woff2"), url("/fonts/aller_Rg.ttf") format("truetype"); }
+  src: url("../fonts/aller_Rg.woff") format("woff"), url("../fonts/aller_Rg.woff2") format("woff2"), url("../fonts/aller_Rg.ttf") format("truetype"); }
 
 @font-face {
   font-weight: normal;
   font-family: "Aller light";
   font-style: normal;
-  src: url("/fonts/aller_Lt.woff") format("woff"), url("/fonts/aller_Lt.woff2") format("woff2"), url("/fonts/aller_Lt.ttf") format("truetype"); }
+  src: url("../fonts/aller_Lt.woff") format("woff"), url("../fonts/aller_Lt.woff2") format("woff2"), url("../fonts/aller_Lt.ttf") format("truetype"); }
 
 @font-face {
   font-weight: bold;
   font-family: "Aller";
   font-style: normal;
-  src: url("/fonts/aller_Bd.woff") format("woff"), url("/fonts/aller_Bd.woff2") format("woff2"), url("/fonts/aller_Bd.ttf") format("truetype"); }
+  src: url("../fonts/aller_Bd.woff") format("woff"), url("../fonts/aller_Bd.woff2") format("woff2"), url("../fonts/aller_Bd.ttf") format("truetype"); }
 
 @font-face {
   font-weight: normal;
   font-family: "Aller";
   font-style: italic;
-  src: url("/fonts/aller_It.woff") format("woff"), url("/fonts/aller_It.woff2") format("woff2"), url("/fonts/aller_It.ttf") format("truetype"); }
+  src: url("../fonts/aller_It.woff") format("woff"), url("../fonts/aller_It.woff2") format("woff2"), url("../fonts/aller_It.ttf") format("truetype"); }
 
 .main-header {
   width: 100%;
@@ -595,7 +595,7 @@ input.moving {
   font-family: Aller;
   font-weight: bold;
   font-size: 12px;
-  line-height: 21px;
+  line-height: 18px;
   background-color: #adadad;
   color: #fff;
   text-align: center; }
@@ -617,7 +617,7 @@ input.moving {
   font-family: Aller;
   font-weight: bold;
   font-size: 12px;
-  line-height: 21px;
+  line-height: 18px;
   background-color: #57c5a0;
   color: #fff;
   text-align: center; }
