@@ -69,7 +69,7 @@
 }
 
 .main-nav__wishlist {
-  background-image: url("/img/wishlist-icon.svg");
+  background-image: url("../img/wishlist-icon.svg");
   background-repeat: no-repeat;
   background-position: 23px center;
 
@@ -89,14 +89,14 @@
   font-family: Aller;
   font-weight: bold;
   font-size: 12px;
-  line-height: 17px; //только при таком значении центруется цифра
+  line-height: 21px; //только при таком значении центруется цифра
   background-color: #adadad;
   color: #fff;
   text-align: center;
 }
 
 .main-nav__cart {
-  background-image: url("/img/cart-icon.svg");
+  background-image: url("../img/cart-icon.svg");
   background-repeat: no-repeat;
   background-position: 23px center;
 
@@ -116,7 +116,7 @@
   font-family: Aller;
   font-weight: bold;
   font-size: 12px;
-  line-height: 17px; //только при таком значении центруется цифра
+  line-height: 21px; //только при таком значении центруется цифра
   background-color: #57c5a0;
   color: #fff;
   text-align: center;

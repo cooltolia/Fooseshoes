@@ -65,19 +65,19 @@
   background-position: center center;
 
   &--view {
-    background-image: url("/img/view-icon.svg");
+    background-image: url("../img/view-icon.svg");
   }
 
   &--wishlist {
-    background-image: url("/img/wishlist-icon.svg");
+    background-image: url("../img/wishlist-icon.svg");
   }
 
   &--share {
-    background-image: url("/img/share-icon.svg");
+    background-image: url("../img/share-icon.svg");
   }
 
   &--buy {
-    background-image: url("/img/buy-icon.svg");
+    background-image: url("../img/buy-icon.svg");
     margin-right: 0;
   }
 
