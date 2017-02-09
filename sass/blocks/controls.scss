@@ -1,36 +1,42 @@
 .controls {
   min-height: 90px;
+
   border-top: 1px solid transparent;
 }
 
 .controls__pagination {
   @include container;
+
   position: relative;
-  margin-top: 6px;
-  height: 10px;
-  background-color: #000;
 
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+  height: 10px;
+  margin-top: 6px;
+
+  background-color: #000000;
 }
 
 .controls__pagination-label {
   position: relative;
+
   width: 180px;
   height: 6px;
   margin-right: 10px;
-  background-color: rgba(#57c5a0, 0);
 
+  background-color: rgba(#57c5a0, 0);
   cursor: pointer;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
+    top: 0;
+    left: 184px;
+
     width: 2px;
     height: 6px;
-    top: 0px;
-    left: 184px;
+
     background-color: #2e2e2e;
   }
 
@@ -45,42 +51,48 @@
 
 input[id="slide1"]:checked ~ .controls .controls__pagination-label[for="slide1"] {
   background-color: rgba(#57c5a0, 1);
+
   transition: background 1s ease;
 }
 
 input[id="slide2"]:checked ~ .controls .controls__pagination-label[for="slide2"] {
   background-color: rgba(#57c5a0, 1);
-  transition: background 1s ease
+
+  transition: background 1s ease;
 }
 
 input[id="slide3"]:checked ~ .controls .controls__pagination-label[for="slide3"] {
-   background-color: rgba(#57c5a0, 1);
+  background-color: rgba(#57c5a0, 1);
+
   transition: background 1s ease;
 }
 
 input[id="slide4"]:checked ~ .controls .controls__pagination-label[for="slide4"] {
-   background-color: rgba(#57c5a0, 1);
+  background-color: rgba(#57c5a0, 1);
+
   transition: background 1s ease;
 }
 
 input[id="slide5"]:checked ~ .controls .controls__pagination-label[for="slide5"] {
-   background-color: rgba(#57c5a0, 1);
-  transition: background 1s ease
+  background-color: rgba(#57c5a0, 1);
+
+  transition: background 1s ease;
 }
 
 .controls__about {
   @include container;
+
   display: flex;
   align-items: center;
 }
 
 .controls__about-label {
-  min-height: 74px;
-  width: 20%;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  min-height: 74px;
 
   cursor: pointer;
 
@@ -92,7 +104,8 @@ input[id="slide5"]:checked ~ .controls .controls__pagination-label[for="slide5"]
 .controls__about-heading {
   font-size: 18px;
   line-height: 25px;
-  color: #fff;
+  color: #ffffff;
+
   opacity: 0.5;
 }
 
@@ -100,6 +113,7 @@ input[id="slide5"]:checked ~ .controls .controls__pagination-label[for="slide5"]
   font-size: 12px;
   line-height: 20px;
   color: #adadad;
+
   opacity: 0.5;
 }
 

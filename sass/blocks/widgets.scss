@@ -7,21 +7,22 @@
 
 .widgets__inner {
   @include container;
-  min-height: 245px;
-  padding: 50px 50px;
+
   display: flex;
   flex-flow: row nowrap;
-  align-items: stretch;
   justify-content: space-between;
+  align-items: stretch;
+  min-height: 245px;
+  padding: 50px 50px;
 }
 
 .widgets__item {
   display: flex;
+  flex: 1 1 auto;
   flex-flow: column nowrap;
   width: 200px;
   min-height: 150px;
   margin-right: 40px;
-  flex: 1 1 auto;
 
   &:last-child {
     margin-right: 0;
@@ -30,12 +31,12 @@
 
 .widgets__heading {
   margin: 0;
-  padding: 0;
   margin-bottom: 18px;
+  padding: 0;
 
-  color: #7d7d7d;
   font-size: 14px;
   line-height: 18px;
+  color: #7d7d7d;
   text-transform: uppercase;
 }
 
@@ -43,28 +44,28 @@
   margin: 0;
   padding: 0;
 
-  color: #a4a4a4;
   font-size: 12px;
-  font-style: italic;
   line-height: 18px;
   text-align: justify;
+  color: #a4a4a4;
+  font-style: italic;
 
   & em {
     color: #57c5a0;
   }
 }
 
-  .widgets__text-data {
-    margin-top: 6px;
-    margin-bottom: 12px;
+.widgets__text-data {
+  margin-top: 6px;
+  margin-bottom: 12px;
 
-    color: #c4c5bf;
-    font-size: 12px;
-    font-style: italic;
-    line-height: 18px;
-    text-align: left;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+  color: #c4c5bf;
+  font-style: italic;
 
-    &:last-child {
-      margin-bottom: 0;
-    }
+  &:last-child {
+    margin-bottom: 0;
   }
+}

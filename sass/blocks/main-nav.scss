@@ -1,35 +1,38 @@
 .main-nav {
   width: 100%;
-  background: #fff;
 
-  font-family: Aller, Arial, Helvetica, sans-serif;
   font-weight: normal;
+  font-family: Aller, Arial, Helvetica, sans-serif;
+
+  background: #ffffff;
 }
 
 .main-nav__inner {
   @include container;
-  min-height: 60px;
+
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  min-height: 60px;
 }
 
 .main-nav__menu-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
   display: flex;
   flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
 }
 
 .main-nav__menu-item {
-  align-items: stretch;
   display: flex;
-  border-left: 1px solid #eee;
+  align-items: stretch;
+
+  border-left: 1px solid #eeeeee;
 
   &:last-child {
-    border-right: 1px solid #eee;
+    border-right: 1px solid #eeeeee;
   }
 }
 
@@ -42,7 +45,6 @@
   font-size: 16px;
   line-height: 156%;
   color: #242424;
-
   text-decoration: none;
 
   &--active {
@@ -51,9 +53,10 @@
 }
 
 .main-nav__menu-link[href]:hover {
-    color: darken(#242424, 10%);
-    background-color: #eee;
-  }
+  color: darken(#242424, 10%);
+
+  background-color: #eeeeee;
+}
 
 .main-nav__product--actions {
   display: flex;
@@ -62,10 +65,11 @@
 
 .main-nav__product--actions a {
   position: relative;
-  height: 60px;
-  width: 90px;
 
-  border-left: 1px solid #ccc;
+  width: 90px;
+  height: 60px;
+
+  border-left: 1px solid #cccccc;
 }
 
 .main-nav__wishlist {
@@ -74,25 +78,27 @@
   background-position: 23px center;
 
   &:hover {
-    background-color: #eee;
+    background-color: #eeeeee;
   }
 }
 
 .main-nav__wishlist-quantity {
   position: absolute;
+  top: calc(50% - 10px);
+  right: 23px;
+
   width: 20px;
   height: 20px;
-  right: 23px;
-  top: calc(50% - 10px);
-  border-radius: 4px;
 
-  font-family: Aller;
   font-weight: bold;
   font-size: 12px;
   line-height: 18px; //только при таком значении центруется цифра
-  background-color: #adadad;
-  color: #fff;
+  font-family: Aller;
   text-align: center;
+  color: #ffffff;
+
+  background-color: #adadad;
+  border-radius: 4px;
 }
 
 .main-nav__cart {
@@ -101,25 +107,27 @@
   background-position: 23px center;
 
   &:hover {
-    background-color: #eee;
+    background-color: #eeeeee;
   }
 }
 
 .main-nav__cart-quantity {
   position: absolute;
+  top: calc(50% - 10px);
+  right: 23px;
+
   width: 20px;
   height: 20px;
-  right: 23px;
-  top: calc(50% - 10px);
-  border-radius: 4px;
 
-  font-family: Aller;
   font-weight: bold;
   font-size: 12px;
   line-height: 18px; //только при таком значении центруется цифра
-  background-color: #57c5a0;
-  color: #fff;
+  font-family: Aller;
   text-align: center;
+  color: #ffffff;
+
+  background-color: #57c5a0;
+  border-radius: 4px;
 }
 
 

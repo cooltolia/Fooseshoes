@@ -3,12 +3,14 @@
   padding-top: 27px;
   padding-bottom: 29px;
 
-  background-color: #2e2e2e;
   font-family: Aller, Arial, Helvetica, sans-serif;
+
+  background-color: #2e2e2e;
 }
 
 .main-footer__inner {
   @include container;
+
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -16,10 +18,11 @@
 }
 
 .main-footer__copyright {
-  opacity: 0.5;
-  color: #ffffff;
   font-size: 12px;
   line-height: 18px;
+  color: #ffffff;
+
+  opacity: 0.5;
 
   &:hover {
     opacity: 1;
@@ -33,25 +36,27 @@
 
 .main-footer__nav-link {
   position: relative;
+
   margin-right: 12px;
 
-  font-family: inherit;
-  color: #ffffff;
-  opacity: 0.5;
   font-size: 12px;
   line-height: 25px;
+  font-family: inherit;
+  color: #ffffff;
   text-decoration: none;
+
+  opacity: 0.5;
 
   &:last-child {
     margin-right: 0;
 
     &::after {
-      content: '';
+      content: "";
     }
   }
 
   &::after {
-    content: '/';
+    content: "/";
     position: relative;
     right: -5px;
   }

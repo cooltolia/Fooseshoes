@@ -6,29 +6,29 @@
 
 .main-filter__form {
   @include container;
-  min-height: 90px;
 
   display: flex;
   flex-flow: row nowrap;
-  align-items: center
+  align-items: center;
+  min-height: 90px;
 }
 
 .main-filter__heading {
-  width: 100px;
   flex: 1 0 auto;
+  width: 100px;
   margin-right: 20px;
 
-  color: #fff;
+  font-weight: normal;
   font-size: 22px;
   line-height: 25px;
-  font-weight: normal;
   text-align: center;
+  color: #ffffff;
 }
 
 .main-filter__select {
+  flex: 1 0 auto;
   width: 100px;
   height: 60px;
-  flex: 1 0 auto;
   margin-right: 20px;
 
 
@@ -39,26 +39,25 @@
 }
 
 .main-filter__select select {
-  appearance: none;
-
   width: 100%;
-  background-color: #242424;
-  border: none;
-  font-size: 14px;
   height: 60px;
   padding: 5px;
   padding-left: 65px;
 
-  color: #ffffff;
-  font-family: inherit;
-  font-size: 18px;
   font-weight: normal;
+  font-size: 14px;
+  font-size: 18px;
   line-height: 25px;
+  font-family: inherit;
   text-align: center;
+  color: #ffffff;
 
-  cursor: pointer;
-
-   background-image: url("../img/select-icon.svg");
+  background-color: #242424;
+  background-image: url("../img/select-icon.svg");
   background-repeat: no-repeat;
   background-position: center right 22px;
+  border: none;
+  cursor: pointer;
+
+  appearance: none;
 }
