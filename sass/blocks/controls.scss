@@ -28,6 +28,8 @@
   background-color: rgba(#57c5a0, 0);
   cursor: pointer;
 
+  transition: background 0.3s ease;
+
   &::after {
     content: "";
     position: absolute;
@@ -51,32 +53,22 @@
 
 input[id="slide1"]:checked ~ .controls .controls__pagination-label[for="slide1"] {
   background-color: rgba(#57c5a0, 1);
-
-  transition: background 1s ease;
 }
 
 input[id="slide2"]:checked ~ .controls .controls__pagination-label[for="slide2"] {
   background-color: rgba(#57c5a0, 1);
-
-  transition: background 1s ease;
 }
 
 input[id="slide3"]:checked ~ .controls .controls__pagination-label[for="slide3"] {
   background-color: rgba(#57c5a0, 1);
-
-  transition: background 1s ease;
 }
 
 input[id="slide4"]:checked ~ .controls .controls__pagination-label[for="slide4"] {
   background-color: rgba(#57c5a0, 1);
-
-  transition: background 1s ease;
 }
 
 input[id="slide5"]:checked ~ .controls .controls__pagination-label[for="slide5"] {
   background-color: rgba(#57c5a0, 1);
-
-  transition: background 1s ease;
 }
 
 .controls__about {
@@ -107,6 +99,8 @@ input[id="slide5"]:checked ~ .controls .controls__pagination-label[for="slide5"]
   color: #ffffff;
 
   opacity: 0.5;
+
+  transition: opacity 0.5s ease;
 }
 
 .controls__about-subheading {
@@ -115,6 +109,8 @@ input[id="slide5"]:checked ~ .controls .controls__pagination-label[for="slide5"]
   color: #adadad;
 
   opacity: 0.5;
+
+  transition: opacity 0.2s ease;
 }
 
 input[id="slide1"]:checked ~ .controls .controls__about-label[for="slide1"] span {
