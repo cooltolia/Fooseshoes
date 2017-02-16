@@ -428,6 +428,7 @@ template {
 
 .main-header {
   width: 100%;
+  min-width: 960px;
   font-weight: normal;
   font-family: Aller, Arial, Helvetica, sans-serif;
   background-color: #242424; }
@@ -702,16 +703,10 @@ input.moving {
   font-family: "Aller light", Arial, Helvetica, sans-serif;
   color: #242424; }
 
-.index-main {
+.main {
   width: 100%;
+  min-width: 960px;
   font-family: Aller, Arial, Helvetica, sans-serif; }
-
-.index-main__inner {
-  box-sizing: border-box;
-  width: 960px;
-  margin: 0 auto;
-  padding: 0 10px;
-  min-height: 460px; }
 
 .carousel__slider {
   height: 460px;
@@ -1669,6 +1664,7 @@ input[id="slide5"]:checked ~ .controls .controls__about-label[for="slide5"] span
 
 .main-footer {
   width: 100%;
+  min-width: 960px;
   padding-top: 27px;
   padding-bottom: 29px;
   font-family: Aller, Arial, Helvetica, sans-serif;

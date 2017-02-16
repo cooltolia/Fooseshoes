@@ -1,11 +1,6 @@
-.index-main {
+.main {
   width: 100%;
+  min-width: 960px;
 
   font-family: Aller, Arial, Helvetica, sans-serif;
-}
-
-.index-main__inner {
-  @include container;
-
-  min-height: 460px;
 }
